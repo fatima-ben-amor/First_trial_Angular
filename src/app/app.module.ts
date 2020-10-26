@@ -14,6 +14,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { FormsModule } from '@angular/forms'; 
+import { ReactiveFormsModule } from '@angular/forms'; 
 
 import "hammerjs";
 import { MenuComponent } from './menu/menu.component';
@@ -29,6 +30,8 @@ import { ContactComponent } from './contact/contact.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { from } from "rxjs";
 import { LoginComponent } from './login/login.component';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 
 @NgModule({
@@ -40,6 +43,7 @@ import { LoginComponent } from './login/login.component';
     AppRoutingModule,
     FlexLayoutModule,
     FormsModule,
+    ReactiveFormsModule,
     MatListModule,
     MatButtonModule,
     MatGridListModule,
@@ -48,6 +52,8 @@ import { LoginComponent } from './login/login.component';
     MatFormFieldModule, 
     MatInputModule,
     MatCheckboxModule,
+    MatSelectModule,
+    MatSlideToggleModule
     
   ],
   providers: [

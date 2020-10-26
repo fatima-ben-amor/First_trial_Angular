@@ -33,20 +33,19 @@ $divider-color: #bdbdbd;
 }
 
 background-primary {
-  background-color: $background-dark !important;
+  background-color: #36028f !important;
 }
 .background-accent {
-  background-color: $accent-color !important;
+  background-color: #ffc107 !important;
 }
 .text-floral-white {
-  color: floralwhite !important;
+  color: rgb(27, 10, 255) !important;
 }
 
 .flex-spacer {
   flex: 1 1 auto;
 }
-.img{
+.img {
   border-radius: 60%;
-  height:50px ;
- 
+  height: 50px;
 }
